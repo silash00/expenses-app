@@ -1,2 +1,3 @@
 # expenses-app
-Expenses App - Created during the React Course from Udemy
+
+Expenses App **WIP** - Created during the React Course from Udemy

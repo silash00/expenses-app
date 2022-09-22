@@ -1,8 +1,8 @@
-import { useState } from "react";
 import "./App.css";
+import NewExpense from "./components/NewExpense/NewExpense";
 import Expenses from "./components/Expenses/Expenses";
 
-function App() {
+const App = () => {
   const expenses = [
     {
       id: "e1",
@@ -33,9 +33,11 @@ function App() {
 
   return (
     <>
+      <h1>Lets Get Starter</h1>
+      <NewExpense />
       <Expenses props={expenses} />
     </>
   );
-}
+};
 
 export default App;
