@@ -31,10 +31,14 @@ const App = () => {
     },
   ];
 
+  const addExpenseHandler = (expense) => {
+    console.log("In App JS");
+    console.log(expense);
+  };
   return (
     <>
       <h1>Lets Get Starter</h1>
-      <NewExpense />
+      <NewExpense onAddExpense={addExpenseHandler} />
       <Expenses props={expenses} />
     </>
   );
