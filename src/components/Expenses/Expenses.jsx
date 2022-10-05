@@ -18,16 +18,14 @@ function Expenses({ props }) {
           selected={filteredYear}
           onChangeFilter={filterChangeHandler}
         />
-        {props.map((item) => {
-          return (
-            <ExpenseItem
-              key={item.id}
-              title={item.title}
-              amount={item.amount}
-              date={item.date}
-            />
-          );
-        })}
+        {props.map((expense) => (
+          <ExpenseItem
+            key={expense.id}
+            title={expense.title}
+            amount={expense.amount}
+            date={expense.date}
+          />
+        ))}
       </Card>
     </>
   );
