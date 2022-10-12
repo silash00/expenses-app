@@ -29,6 +29,12 @@ const DUMMY_EXPENSES = [
     amount: 30,
     date: new Date(2021, 2, 12),
   },
+  {
+    id: "e7",
+    title: "Teste 3",
+    amount: 30,
+    date: new Date(2022, 2, 12),
+  },
 ];
 
 const App = () => {
