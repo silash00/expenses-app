@@ -1,3 +1,3 @@
 # expenses-app
 
-Expenses App **WIP** - Created during the React Course from Udemy
+Expenses App **WIP** - Experimental Project Using only React and TailWindCSS.
